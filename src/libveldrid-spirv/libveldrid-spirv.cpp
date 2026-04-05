@@ -11,6 +11,7 @@
 #include <sstream>
 #include "shaderc.hpp"
 #include <iostream>
+#include <cstdint>
 
 using namespace spirv_cross;
 
@@ -34,7 +35,7 @@ struct ResourceInfo
 {
     std::string Name;
     ResourceKind Kind;
-    std::uint32_t IDs[2]; // 0 == VS/CS, 1 == FS
+    uint32_t IDs[2]; // 0 == VS/CS, 1 == FS
 };
 
 ResourceKind ClassifyResource(const Compiler *compiler, const Resource &resource, bool image, bool storage)

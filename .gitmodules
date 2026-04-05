@@ -1,3 +1,12 @@
 [submodule "ext/SPIRV-Cross"]
 	path = ext/SPIRV-Cross
 	url = https://github.com/KhronosGroup/SPIRV-Cross
+[submodule "ext/shaderc"]
+	path = ext/shaderc
+	url = https://github.com/KhronosGroup/shaderc
+[submodule "third_party/spirv-tools"]
+	path = third_party/spirv-tools
+	url = https://github.com/KhronosGroup/SPIRV-Tools
+[submodule "third_party/glslang"]
+	path = third_party/glslang
+	url = https://github.com/KhronosGroup/glslang
